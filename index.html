@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanzando Sueños: Apoya a Kendric Palacios</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="canvas-container"></div>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Lanzando Sueños, Alcanzando Estrellas</h1>
+            <p class="subtitle">
+                Apoya a <strong>Kendric Palacios</strong>, destacado estudiante de la UCR, en su misión para competir en el <strong>Baja Rocket Science 2025</strong>.
+            </p>
+            <div class="cta-buttons">
+                <a href="#rewards" class="btn btn-primary">¡Quiero Apoyar!</a>
+                <a href="#about" class="btn btn-secondary">Conoce la Misión</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="goal" class="goal-section">
+            <h2>Nuestra Misión: $1,550 USD</h2>
+            <p>Necesitamos recaudar $1,550 para cubrir los costos de inscripción, materiales y viáticos para la competencia.</p>
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progressBar"></div>
+                <div class="progress-text"><span id="progressAmount">$0</span> / $1,550</div>
+            </div>
+        </section>
+
+        <section id="about" class="content-section">
+            <div class="container">
+                
+                <h2>Un Talento Costarricense Hacia el Espacio</h2>
+                <p>
+                    Kendric Palacios no es solo un estudiante de ingeniería en la Universidad de Costa Rica; es un apasionado por la cohetería y la exploración espacial. Su dedicación y excelencia académica lo han llevado a una oportunidad única: representar a Costa Rica en el <strong>Baja Rocket Science</strong>, una prestigiosa competencia que se llevará a cabo los días <strong>10, 11 y 12 de octubre de 2025</strong> en Laguna Salada, Baja California. Este evento, avalado por la Tripoli Rocketry Association, es una vitrina para los futuros ingenieros aeroespaciales del mundo.
+                </p>
+            </div>
+        </section>
+
+        <section id="rewards" class="rewards-section">
+            <div class="container">
+                <h2>A Cambio de tu Apoyo, Aprende a Lanzar Cohetes</h2>
+                <p class="section-subtitle">
+                    Como agradecimiento, Kendric compartirá su conocimiento contigo en un exclusivo campamento de cohetería. ¡Elige tu nivel de lanzamiento!
+                </p>
+                <div class="rewards-grid">
+                    <div class="reward-card">
+                        <h3>Campamento Starter</h3>
+                        <div class="price">$50</div>
+                        <ul>
+                            <li>🚀 Introducción a la cohetería amateur.</li>
+                            <li>🛠️ Taller práctico: construye tu propio cohete de baja potencia.</li>
+                            <li>🎓 Certificado de participación.</li>
+                            <li>🌟 Acceso a la comunidad de futuros coheteros.</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Seleccionar Starter</a>
+                    </div>
+                    <div class="reward-card vip">
+                        <div class="vip-badge">Más Popular</div>
+                        <h3>Campamento Advanced (VIP)</h3>
+                        <div class="price">$100</div>
+                        <ul>
+                            <li>🚀 Todo lo del plan Starter, ¡y más!</li>
+                            <li>🌌 Principios avanzados de propulsión y aerodinámica.</li>
+                            <li>🛠️ Construcción de un cohete de mayor potencia.</li>
+                            <li>🛰️ Simulación y análisis de trayectoria de vuelo.</li>
+                            <li>🏆 Día de lanzamiento VIP con Kendric.</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Seleccionar VIP</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 | Un proyecto de Kendric Palacios para impulsar la ciencia en Costa Rica.</p>
+    </footer>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.164.1/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.164.1/examples/jsm/"
+            }
+        }
+    </script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
